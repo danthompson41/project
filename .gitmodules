@@ -1,0 +1,12 @@
+[submodule "app/arduino"]
+	path = app/arduino
+	url = git@github.com:hospital-sleep-tracker/arduino.git
+[submodule "app/arduino-simulator"]
+	path = app/arduino-simulator
+	url = git@github.com:hospital-sleep-tracker/arduino-simulator.git
+[submodule "app/slp-matlab-analyzer"]
+	path = app/slp-matlab-analyzer
+	url = git@github.com:hospital-sleep-tracker/slp-matlab-analyzer.git
+[submodule "app/sleep-analyzer"]
+	path = app/sleep-analyzer
+	url = git@github.com:hospital-sleep-tracker/sleep-analyzer.git
