@@ -1,19 +1,21 @@
 bedside-monitor
 ===============
 This is the official repository for the Enabling Engineers Bedside-Monitor at Northeastern University.
+## Files
+This repository has 3 sample sleep files. For now, we are using the derivSleep1.txt, which is the derivative of sleep1.txt. We will be posting more derivative-sleep-files as soon as we create them.
 
-If you've never worked with arduino, you can get the IDE here:
-http://arduino.cc/en/Main/Software
 
-General information / Datasheets / etc.:
-https://www.sparkfun.com/products/11446
 
-Currently, the todo-list looks something like this:
-1.) Write a capture executable that reads in arduino data and places it into a .slp file. The data will look like the following, repeated on each line:
-TIME,XVAL,YVAL,ZVAL
+## Links
+[Arduino IDE](http://arduino.cc/en/Main/Software)
 
-2.) Take the .slp file and generate a graph in MATLAB to analyze the data.
+[General information / Datasheets / etc.](https://www.sparkfun.com/products/11446)
 
-3.) Write a arduino simulator, which can take a .slp file as input, and write the data to a fake serial port that it creates.
+## Other Repositories
+[Arduino](https://github.com/hospital-sleep-tracker/arduino)
 
-4.) Write the Final capture executable that reads in arduino data and interprets it accordingly
+[C++ Sleep Analyzer](https://github.com/hospital-sleep-tracker/arduino-simulator)
+
+[Matlab Analysis Scripts](https://github.com/hospital-sleep-tracker/matlab-slp-analyzer)
+
+[Arduino Simulator](https://github.com/hospital-sleep-tracker/arduino-simulator)
